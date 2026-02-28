@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(47, 88%, 63%);
+  font-family: "figtree", sans-serif;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 28.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border: 0.1rem solid hsl(0, 0%, 7%);
+  box-shadow: 0.5rem 0.6rem 0 hsl(0, 0%, 7%);
+  cursor: pointer;
+}
+
+.container:hover {
+  box-shadow: 1rem 1.2rem 0 hsl(0, 0%, 7%);
+}
+
+img {
+  border-radius: 8px;
+  /* overflow: hidden; */
+}
+
+.tag {
+  width: 6rem;
+  background-color: hsl(47, 88%, 63%);
+  text-align: center;
+  border-radius: 2px;
+  font-weight: 800;
+  padding: 0.4rem 0.8rem;
+  margin-top: 0.6rem;
+}
+
+.date {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-weight: 800;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 42%);
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.avatar img {
+  width: 2rem;
+}
+
+.avatar p {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
